@@ -1,5 +1,5 @@
 This is a simple fork that combines efanabi25's wonderful post_script addition with the source repo's recent code cleanups.
-To use the post_script feature, add the key entry 'post_script' under the 'uploader' heading and set its value to the script to be run after the upload is completed.
+To use the post_script feature, add the key entry 'post_script' under the 'uploader' heading and set its value to the location of the script to be run after the upload is completed, e.g. '/opt/upload-notify.sh'.
 
 <img src="assets/logo.svg" width="600" alt="Cloudplow">
 
