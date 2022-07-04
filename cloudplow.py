@@ -733,13 +733,13 @@ def do_postscript(script):
     if os.path.isfile(script) == False:
         log.error("Script file does not exist")
     else:
-        log.info("Script File: %s is running", script)
+        log.info("Script file: %s is running", script)
         try:
             subprocess.call(script)
-            log.info("Script Finished")
+            log.info("Script finished")
 
         except:
-            log.error("Please Make sure your script has a shell, and is properly formated")
+            log.error("Please make sure your script has a shell, and is properly formatted")
 
 
 ############################################################
