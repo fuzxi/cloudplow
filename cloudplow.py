@@ -736,7 +736,7 @@ def do_postscript(script):
         log.info("Script File: %s is running", script)
         try:
             subprocess.call(script)
-            log.error("Script Finished")
+            log.info("Script Finished")
 
         except:
             log.error("Please Make sure your script has a shell, and is properly formated")
